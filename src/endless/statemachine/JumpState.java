@@ -16,14 +16,6 @@ public class JumpState extends State {
 	}
 	
 	@Override
-	public void crawlPress() {
-	}
-	
-	@Override
-	public void crawlRelease() {
-	}
-	
-	@Override
 	public void jump() {
 		player.setState(new DoubleJumpState(player));
 	}
